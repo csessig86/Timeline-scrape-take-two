@@ -1,0 +1,6 @@
+These are the completed Timeline-Setter timelines. After you download Timeline-Setter and run the scraper, go into the folder with the CSV and run:
+
+timeline-setter -c ENTER_NAME.csv
+
+For more information:
+http://propublica.github.com/timeline-setter/
