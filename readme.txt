@@ -1,4 +1,4 @@
-This scraper turns #timeline collections in the BLOX CMS into CSV files that can be read by ProPublica's Timeline-Setter:
+This scraper turns content (articles, photos, galleries, etc.) in the BLOX CMS into CSV files that can be read by ProPublica's Timeline-Setter:
 http://propublica.github.com/timeline-setter/
 
 
