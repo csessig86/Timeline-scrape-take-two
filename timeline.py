@@ -12,12 +12,12 @@ f = open('timeline.csv', 'w')
 # Make the header rows. These are based on headers recognized by TimelineSetter.
 f.write("date" + "," + "description" + "," + "link" + "," + "html" + "\n")
 
-# URL of the XML file we will scrape
+# URL we will scrape
 url = 'http://wcfcourier.com/test/scrape/dunkerton/'
 page = urllib2.urlopen(url)
 soup = BeautifulSoup(page)
 
-# We'll determine how many events appear in the XML document and then run a loop through each one, scraping our data along the way.
+# We'll determine how many events appear on the web page and then run a loop through each one, scraping our data along the way.
 events = soup.findAll('div', attrs={'class': 'story-block'})
 for x in events:
 
